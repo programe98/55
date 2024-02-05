@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="img/banner2.png" type="image/x-icon">
-    <meta name="theme-color" content="#ff0000" />
+    <meta name="theme-color" content="#009ce0" />
     <meta name="description" content="">
     <title>website</title>
     <style>
@@ -22,9 +22,17 @@
 header{
     width: 100%;
     height: 60px;
-    background-color: rgb(255, 0, 0);
+    background-color: #009ce0;
     margin-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+    .logo{
+        width: 37px;
+        height: 37px;
+    }
 
 nav{
     width: 100%;
@@ -35,15 +43,29 @@ nav{
 
 main{
     width: 100%;
+    height: 560px;
+}
+
+article{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 560px;
+}
+
+.post-a-redi{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    width: 97%;
+    max-width: 1000px;
 }
 
 .post-midia{
     width: 100%;
     display: flex;
     justify-content: center;
+  
 }
 
 .previl-post-img{
@@ -55,37 +77,33 @@ main{
 }
 
 .cont-p-h1{
-    width: 97%;
+    width: 100%;
     max-width: 1000px;
-    padding: 12px;
-}
-
-
-.post-a-redi{
     display: flex;
-    justify-content: center;
- 
+    align-items: center;
+    height: 60px;
 }
-        
-article{
-    width: 97%;
-  max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+.cont-p-h1 a{
+    margin-left: 12px;
+    margin-right: 12px;
+    color: black;
+    font-size: 16px;
 }
 
 
 footer{
     width: 100%;
     height: 100px;
-    background-color: rgb(255, 0, 0);
+    background-color:#009ce0;
 }
     </style>
 </head>
 <body>
 
-    <header></header>
+    <header>
+        <img class="logo" src="img/logo-icone-favicon.png" alt="">
+    </header>
 
 <nav></nav>
 
@@ -95,7 +113,22 @@ footer{
 <main>
     <article>
         <section class="post-midia">
-            <a class="post-a-redi" href="post.html"><img src="banner2.png" alt="" class="previl-post-img"></a>
+            <a class="post-a-redi" href="post.html"><img src="https://th.bing.com/th/id/OIP.-IknI0WladQHmdKdymHSVAAAAA?rs=1&pid=ImgDetMain" alt="" class="previl-post-img"></a>
+        </section>
+
+        <section class="cont-p-h1">
+            <a href="post.html">quem realmente descobriu o brasil foram os portugueses ou os indios</a>
+        </section>
+
+    </article>
+</main>
+
+
+
+<main>
+    <article>
+        <section class="post-midia">
+            <a class="post-a-redi" href="post.html"><img src="https://1.bp.blogspot.com/-aLbT5rdO2rU/Xr7hLoklUgI/AAAAAAAADa0/jDdbvtWju40BqAd2qwF6vJ4Tp9NmyG2tQCLcBGAsYHQ/s1600/01.jpg" alt="" class="previl-post-img"></a>
         </section>
 
         <section class="cont-p-h1">
@@ -110,52 +143,7 @@ footer{
 <main>
     <article>
         <section class="post-midia">
-            <a class="post-a-redi" href="post.html"><img src="banner2.png" alt="" class="previl-post-img"></a>
-        </section>
-
-        <section class="cont-p-h1">
-            <a href="post.html">titulo post midia srrc</a>
-        </section>
-
-    </article>
-</main>
-
-
-
-<main>
-    <article>
-        <section class="post-midia">
-            <a class="post-a-redi" href="post.html"><img src="banner2.png" alt="" class="previl-post-img"></a>
-        </section>
-
-        <section class="cont-p-h1">
-            <a href="post.html">titulo post midia srrc</a>
-        </section>
-
-    </article>
-</main>
-
-
-
-<main>
-    <article>
-        <section class="post-midia">
-            <a class="post-a-redi" href="post.html"><img src="banner2.png" alt="" class="previl-post-img"></a>
-        </section>
-
-        <section class="cont-p-h1">
-            <a href="post.html">titulo post midia srrc</a>
-        </section>
-
-    </article>
-</main>
-
-
-
-<main>
-    <article>
-        <section class="post-midia">
-            <a class="post-a-redi" href="post.html"><img src="banner2.png" alt="" class="previl-post-img"></a>
+            <a class="post-a-redi" href="post.html"><img src="https://i.ytimg.com/vi/q9DronUBzvU/maxresdefault.jpg" alt="" class="previl-post-img"></a>
         </section>
 
         <section class="cont-p-h1">
@@ -196,6 +184,34 @@ footer{
 </main>
 
 
+
+<main>
+    <article>
+        <section class="post-midia">
+            <a class="post-a-redi" href="post.html"><img src="img/banner2.png" alt="" class="previl-post-img"></a>
+        </section>
+
+        <section class="cont-p-h1">
+            <a href="post.html">titulo post midia srrc</a>
+        </section>
+
+    </article>
+</main>
+
+
+
+<main>
+    <article>
+        <section class="post-midia">
+            <a class="post-a-redi" href="post.html"><img src="img/banner2.png" alt="" class="previl-post-img"></a>
+        </section>
+
+        <section class="cont-p-h1">
+            <a href="post.html">titulo post midia srrc</a>
+        </section>
+
+    </article>
+</main>
 
 
 
